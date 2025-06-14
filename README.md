@@ -402,19 +402,6 @@ db.export_sample_data("backup_data.json")
 info = db.get_database_info()
 ```
 
-## Contributing
-
-This project is part of the AltSchool Data Engineering curriculum. For academic purposes:
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Author
 
 **Student Name**
