@@ -1,0 +1,1409 @@
+{
+  "users": [
+    {
+      "_id": "684d46beeb0d92f7a2fbe6a6",
+      "userId": "INST_001",
+      "email": "casey.ellis@demo.edu",
+      "firstName": "Casey",
+      "lastName": "Ellis",
+      "role": "instructor",
+      "dateJoined": "2023-12-24T10:54:06.339000",
+      "profile": {
+        "bio": "Professional instructor specializing in web technologies",
+        "avatar": "https://avatars.example.com/instructor_1.png",
+        "skills": [
+          "Angular",
+          "Python",
+          "Docker",
+          "AWS",
+          "React"
+        ]
+      },
+      "isActive": true
+    },
+    {
+      "_id": "684d46beeb0d92f7a2fbe6a7",
+      "userId": "INST_002",
+      "email": "casey.bailey@test.com",
+      "firstName": "Casey",
+      "lastName": "Bailey",
+      "role": "instructor",
+      "dateJoined": "2024-01-27T10:54:06.339000",
+      "profile": {
+        "bio": "Professional instructor specializing in web technologies",
+        "avatar": "https://avatars.example.com/instructor_2.png",
+        "skills": [
+          "Angular",
+          "Vue",
+          "Docker",
+          "Node.js",
+          "MongoDB",
+          "AWS",
+          "Java"
+        ]
+      },
+      "isActive": true
+    },
+    {
+      "_id": "684d46beeb0d92f7a2fbe6a8",
+      "userId": "INST_003",
+      "email": "avery.brooks@sample.net",
+      "firstName": "Avery",
+      "lastName": "Brooks",
+      "role": "instructor",
+      "dateJoined": "2024-10-14T10:54:06.340000",
+      "profile": {
+        "bio": "Professional instructor specializing in data analysis",
+        "avatar": "https://avatars.example.com/instructor_3.png",
+        "skills": [
+          "Python",
+          "MongoDB",
+          "Angular",
+          "PostgreSQL"
+        ]
+      },
+      "isActive": true
+    },
+    {
+      "_id": "684d46beeb0d92f7a2fbe6a9",
+      "userId": "INST_004",
+      "email": "taylor.gray@example.org",
+      "firstName": "Taylor",
+      "lastName": "Gray",
+      "role": "instructor",
+      "dateJoined": "2024-07-30T10:54:06.340000",
+      "profile": {
+        "bio": "Professional instructor specializing in web technologies",
+        "avatar": "https://avatars.example.com/instructor_4.png",
+        "skills": [
+          "Python",
+          "AWS",
+          "Angular",
+          "Node.js",
+          "Java",
+          "Vue"
+        ]
+      },
+      "isActive": true
+    },
+    {
+      "_id": "684d46beeb0d92f7a2fbe6aa",
+      "userId": "INST_005",
+      "email": "riley.reed@test.com",
+      "firstName": "Riley",
+      "lastName": "Reed",
+      "role": "instructor",
+      "dateJoined": "2024-07-16T10:54:06.340000",
+      "profile": {
+        "bio": "Professional instructor specializing in web technologies",
+        "avatar": "https://avatars.example.com/instructor_5.png",
+        "skills": [
+          "React",
+          "PostgreSQL",
+          "Docker",
+          "Java"
+        ]
+      },
+      "isActive": true
+    },
+    {
+      "_id": "684d46beeb0d92f7a2fbe6ab",
+      "userId": "STU_001",
+      "email": "blake.ellis0@demo.edu",
+      "firstName": "Blake",
+      "lastName": "Ellis",
+      "role": "student",
+      "dateJoined": "2025-03-27T10:54:06.340000",
+      "profile": {
+        "bio": "Updated bio: Learning web development",
+        "avatar": "https://avatars.example.com/student_1.png",
+        "skills": [
+          "Python",
+          "HTML",
+          "CSS"
+        ]
+      },
+      "isActive": false
+    },
+    {
+      "_id": "684d46beeb0d92f7a2fbe6ac",
+      "userId": "STU_002",
+      "email": "casey.gray1@test.com",
+      "firstName": "Casey",
+      "lastName": "Gray",
+      "role": "student",
+      "dateJoined": "2025-03-10T10:54:06.340000",
+      "profile": {
+        "bio": "Eager learner focusing on software engineering",
+        "avatar": "https://avatars.example.com/student_2.png",
+        "skills": [
+          "PostgreSQL",
+          "Vue",
+          "Python"
+        ]
+      },
+      "isActive": true
+    },
+    {
+      "_id": "684d46beeb0d92f7a2fbe6ad",
+      "userId": "STU_003",
+      "email": "riley.brooks2@demo.edu",
+      "firstName": "Riley",
+      "lastName": "Brooks",
+      "role": "student",
+      "dateJoined": "2024-10-15T10:54:06.340000",
+      "profile": {
+        "bio": "Eager learner focusing on technology",
+        "avatar": "https://avatars.example.com/student_3.png",
+        "skills": [
+          "Vue",
+          "PostgreSQL",
+          "Java"
+        ]
+      },
+      "isActive": true
+    },
+    {
+      "_id": "684d46beeb0d92f7a2fbe6ae",
+      "userId": "STU_004",
+      "email": "jordan.ward3@test.com",
+      "firstName": "Jordan",
+      "lastName": "Ward",
+      "role": "student",
+      "dateJoined": "2025-04-21T10:54:06.340000",
+      "profile": {
+        "bio": "Eager learner focusing on technology",
+        "avatar": "https://avatars.example.com/student_4.png",
+        "skills": [
+          "React",
+          "Angular",
+          "MongoDB",
+          "Python"
+        ]
+      },
+      "isActive": true
+    },
+    {
+      "_id": "684d46beeb0d92f7a2fbe6af",
+      "userId": "STU_005",
+      "email": "avery.ward4@example.org",
+      "firstName": "Avery",
+      "lastName": "Ward",
+      "role": "student",
+      "dateJoined": "2024-06-17T10:54:06.340000",
+      "profile": {
+        "bio": "Eager learner focusing on software engineering",
+        "avatar": "https://avatars.example.com/student_5.png",
+        "skills": [
+          "Python",
+          "AWS",
+          "Java",
+          "Docker",
+          "MongoDB"
+        ]
+      },
+      "isActive": true
+    },
+    {
+      "_id": "684d46beeb0d92f7a2fbe6b0",
+      "userId": "STU_006",
+      "email": "alex.ward5@test.com",
+      "firstName": "Alex",
+      "lastName": "Ward",
+      "role": "student",
+      "dateJoined": "2024-09-16T10:54:06.340000",
+      "profile": {
+        "bio": "Eager learner focusing on technology",
+        "avatar": "https://avatars.example.com/student_6.png",
+        "skills": [
+          "Vue",
+          "Angular"
+        ]
+      },
+      "isActive": true
+    },
+    {
+      "_id": "684d46beeb0d92f7a2fbe6b1",
+      "userId": "STU_007",
+      "email": "alex.bailey6@sample.net",
+      "firstName": "Alex",
+      "lastName": "Bailey",
+      "role": "student",
+      "dateJoined": "2024-07-01T10:54:06.340000",
+      "profile": {
+        "bio": "Eager learner focusing on technology",
+        "avatar": "https://avatars.example.com/student_7.png",
+        "skills": [
+          "Vue",
+          "Node.js"
+        ]
+      },
+      "isActive": true
+    },
+    {
+      "_id": "684d46beeb0d92f7a2fbe6b2",
+      "userId": "STU_008",
+      "email": "blake.bailey7@example.org",
+      "firstName": "Blake",
+      "lastName": "Bailey",
+      "role": "student",
+      "dateJoined": "2024-11-06T10:54:06.340000",
+      "profile": {
+        "bio": "Eager learner focusing on technology",
+        "avatar": "https://avatars.example.com/student_8.png",
+        "skills": [
+          "Vue",
+          "Docker",
+          "Angular",
+          "Java",
+          "AWS"
+        ]
+      },
+      "isActive": true
+    },
+    {
+      "_id": "684d46beeb0d92f7a2fbe6b3",
+      "userId": "STU_009",
+      "email": "avery.hayes8@example.org",
+      "firstName": "Avery",
+      "lastName": "Hayes",
+      "role": "student",
+      "dateJoined": "2025-04-27T10:54:06.340000",
+      "profile": {
+        "bio": "Eager learner focusing on software engineering",
+        "avatar": "https://avatars.example.com/student_9.png",
+        "skills": [
+          "React",
+          "Angular",
+          "Python",
+          "PostgreSQL"
+        ]
+      },
+      "isActive": true
+    },
+    {
+      "_id": "684d46beeb0d92f7a2fbe6b4",
+      "userId": "STU_010",
+      "email": "casey.ward9@test.com",
+      "firstName": "Casey",
+      "lastName": "Ward",
+      "role": "student",
+      "dateJoined": "2024-12-23T10:54:06.340000",
+      "profile": {
+        "bio": "Eager learner focusing on technology",
+        "avatar": "https://avatars.example.com/student_10.png",
+        "skills": [
+          "Java",
+          "Vue",
+          "React"
+        ]
+      },
+      "isActive": true
+    },
+    {
+      "_id": "684d46beeb0d92f7a2fbe6b5",
+      "userId": "STU_011",
+      "email": "alex.gray10@sample.net",
+      "firstName": "Alex",
+      "lastName": "Gray",
+      "role": "student",
+      "dateJoined": "2024-07-02T10:54:06.340000",
+      "profile": {
+        "bio": "Eager learner focusing on software engineering",
+        "avatar": "https://avatars.example.com/student_11.png",
+        "skills": [
+          "Python",
+          "MongoDB"
+        ]
+      },
+      "isActive": true
+    },
+    {
+      "_id": "684d46beeb0d92f7a2fbe6b6",
+      "userId": "STU_012",
+      "email": "blake.parker11@example.org",
+      "firstName": "Blake",
+      "lastName": "Parker",
+      "role": "student",
+      "dateJoined": "2024-08-28T10:54:06.340000",
+      "profile": {
+        "bio": "Eager learner focusing on software engineering",
+        "avatar": "https://avatars.example.com/student_12.png",
+        "skills": [
+          "Java",
+          "Python",
+          "PostgreSQL",
+          "AWS",
+          "Vue"
+        ]
+      },
+      "isActive": true
+    },
+    {
+      "_id": "684d46beeb0d92f7a2fbe6b7",
+      "userId": "STU_013",
+      "email": "riley.ward12@example.org",
+      "firstName": "Riley",
+      "lastName": "Ward",
+      "role": "student",
+      "dateJoined": "2024-06-26T10:54:06.340000",
+      "profile": {
+        "bio": "Eager learner focusing on software engineering",
+        "avatar": "https://avatars.example.com/student_13.png",
+        "skills": [
+          "Node.js",
+          "Python"
+        ]
+      },
+      "isActive": true
+    },
+    {
+      "_id": "684d46beeb0d92f7a2fbe6b8",
+      "userId": "STU_014",
+      "email": "alex.reed13@sample.net",
+      "firstName": "Alex",
+      "lastName": "Reed",
+      "role": "student",
+      "dateJoined": "2024-04-23T10:54:06.340000",
+      "profile": {
+        "bio": "Eager learner focusing on software engineering",
+        "avatar": "https://avatars.example.com/student_14.png",
+        "skills": [
+          "PostgreSQL",
+          "AWS"
+        ]
+      },
+      "isActive": true
+    },
+    {
+      "_id": "684d46beeb0d92f7a2fbe6b9",
+      "userId": "STU_015",
+      "email": "blake.reed14@demo.edu",
+      "firstName": "Blake",
+      "lastName": "Reed",
+      "role": "student",
+      "dateJoined": "2024-11-10T10:54:06.340000",
+      "profile": {
+        "bio": "Eager learner focusing on software engineering",
+        "avatar": "https://avatars.example.com/student_15.png",
+        "skills": [
+          "Node.js",
+          "Docker",
+          "Vue"
+        ]
+      },
+      "isActive": true
+    },
+    {
+      "_id": "684d46c4eb0d92f7a2fbe700",
+      "userId": "STU_016",
+      "email": "new.student@example.com",
+      "firstName": "New",
+      "lastName": "Student",
+      "role": "student",
+      "dateJoined": "2025-06-14T10:54:12.919000",
+      "profile": {
+        "bio": "New student interested in programming",
+        "avatar": "https://avatars.example.com/student_16.png",
+        "skills": [
+          "Python",
+          "JavaScript"
+        ]
+      },
+      "isActive": true
+    },
+    {
+      "_id": "684d46d8eb0d92f7a2fbe702",
+      "userId": "TEST_001",
+      "email": "test@example.com",
+      "firstName": "Test",
+      "lastName": "User",
+      "role": "student"
+    }
+  ],
+  "courses": [
+    {
+      "_id": "684d46beeb0d92f7a2fbe6ba",
+      "courseId": "COURSE_001",
+      "title": "Complete Python Programming",
+      "description": "Comprehensive training in complete python programming with practical applications and real-world projects.",
+      "instructorId": "INST_003",
+      "category": "Web Development",
+      "level": "intermediate",
+      "duration": 53,
+      "price": 381,
+      "tags": [
+        "complete",
+        "python",
+        "programming"
+      ],
+      "createdAt": "2025-05-26T10:54:06.686000",
+      "updatedAt": "2025-06-14T10:54:24.481000",
+      "isPublished": true
+    },
+    {
+      "_id": "684d46beeb0d92f7a2fbe6bb",
+      "courseId": "COURSE_002",
+      "title": "Modern Web Development",
+      "description": "Comprehensive training in modern web development with practical applications and real-world projects.",
+      "instructorId": "INST_004",
+      "category": "Software Engineering",
+      "level": "advanced",
+      "duration": 50,
+      "price": 240,
+      "tags": [
+        "modern",
+        "development"
+      ],
+      "createdAt": "2025-03-03T10:54:06.686000",
+      "updatedAt": "2025-04-28T10:54:06.686000",
+      "isPublished": true
+    },
+    {
+      "_id": "684d46beeb0d92f7a2fbe6bc",
+      "courseId": "COURSE_003",
+      "title": "Data Science Fundamentals",
+      "description": "Comprehensive training in data science fundamentals with practical applications and real-world projects.",
+      "instructorId": "INST_003",
+      "category": "Software Engineering",
+      "level": "beginner",
+      "duration": 64,
+      "price": 138,
+      "tags": [
+        "data",
+        "science",
+        "fundamentals"
+      ],
+      "createdAt": "2025-05-01T10:54:06.686000",
+      "updatedAt": "2025-05-15T10:54:06.686000",
+      "isPublished": false
+    },
+    {
+      "_id": "684d46beeb0d92f7a2fbe6bd",
+      "courseId": "COURSE_004",
+      "title": "JavaScript for Beginners",
+      "description": "Comprehensive training in javascript for beginners with practical applications and real-world projects.",
+      "instructorId": "INST_001",
+      "category": "Web Development",
+      "level": "advanced",
+      "duration": 39,
+      "price": 231,
+      "tags": [
+        "javascript",
+        "beginners"
+      ],
+      "createdAt": "2025-03-02T10:54:06.686000",
+      "updatedAt": "2025-06-07T10:54:06.686000",
+      "isPublished": true
+    },
+    {
+      "_id": "684d46beeb0d92f7a2fbe6be",
+      "courseId": "COURSE_005",
+      "title": "Database Management Systems",
+      "description": "Comprehensive training in database management systems with practical applications and real-world projects.",
+      "instructorId": "INST_005",
+      "category": "Programming",
+      "level": "beginner",
+      "duration": 79,
+      "price": 196,
+      "tags": [
+        "database",
+        "management",
+        "systems"
+      ],
+      "createdAt": "2025-04-10T10:54:06.686000",
+      "updatedAt": "2025-05-30T10:54:06.686000",
+      "isPublished": false
+    },
+    {
+      "_id": "684d46beeb0d92f7a2fbe6bf",
+      "courseId": "COURSE_006",
+      "title": "React Application Development",
+      "description": "Comprehensive training in react application development with practical applications and real-world projects.",
+      "instructorId": "INST_001",
+      "category": "Web Development",
+      "level": "intermediate",
+      "duration": 74,
+      "price": 224,
+      "tags": [
+        "react",
+        "application",
+        "development"
+      ],
+      "createdAt": "2025-03-09T10:54:06.686000",
+      "updatedAt": "2025-04-26T10:54:06.686000",
+      "isPublished": false
+    },
+    {
+      "_id": "684d46beeb0d92f7a2fbe6c0",
+      "courseId": "COURSE_007",
+      "title": "Backend Development with Node",
+      "description": "Comprehensive training in backend development with node with practical applications and real-world projects.",
+      "instructorId": "INST_002",
+      "category": "Software Engineering",
+      "level": "advanced",
+      "duration": 60,
+      "price": 468,
+      "tags": [
+        "backend",
+        "development",
+        "with",
+        "node"
+      ],
+      "createdAt": "2024-12-28T10:54:06.686000",
+      "updatedAt": "2025-06-07T10:54:06.686000",
+      "isPublished": true
+    },
+    {
+      "_id": "684d46beeb0d92f7a2fbe6c1",
+      "courseId": "COURSE_008",
+      "title": "Introduction to Machine Learning",
+      "description": "Comprehensive training in introduction to machine learning with practical applications and real-world projects.",
+      "instructorId": "INST_002",
+      "category": "Data Science",
+      "level": "beginner",
+      "duration": 33,
+      "price": 255,
+      "tags": [
+        "introduction",
+        "machine",
+        "learning"
+      ],
+      "createdAt": "2025-06-03T10:54:06.686000",
+      "updatedAt": "2025-05-07T10:54:06.686000",
+      "isPublished": false
+    },
+    {
+      "_id": "684d46c5eb0d92f7a2fbe701",
+      "courseId": "COURSE_009",
+      "title": "Basic Data Analysis",
+      "description": "Learn data analysis fundamentals",
+      "instructorId": "INST_001",
+      "category": "Data Science",
+      "level": "beginner",
+      "duration": 30,
+      "price": 150.0,
+      "tags": [
+        "data",
+        "analysis",
+        "basics"
+      ],
+      "createdAt": "2025-06-14T10:54:13.418000",
+      "updatedAt": "2025-06-14T10:54:13.418000",
+      "isPublished": false
+    }
+  ],
+  "lessons": [
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6c2",
+      "lessonId": "LESSON_001",
+      "courseId": "COURSE_001",
+      "title": "Advanced Techniques - Complete Python Programming",
+      "content": "This lesson explores advanced techniques with detailed explanations and practical examples.",
+      "duration": 46,
+      "order": 1,
+      "videoUrl": "https://videos.example.com/lesson_1.mp4",
+      "materials": [
+        "lesson_1_notes.pdf",
+        "lesson_1_code.zip"
+      ],
+      "createdAt": "2025-03-23T10:54:07.022000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6c3",
+      "lessonId": "LESSON_002",
+      "courseId": "COURSE_007",
+      "title": "Core Concepts - Backend Development with Node",
+      "content": "This lesson explores core concepts with detailed explanations and practical examples.",
+      "duration": 55,
+      "order": 2,
+      "videoUrl": "https://videos.example.com/lesson_2.mp4",
+      "materials": [
+        "lesson_2_notes.pdf",
+        "lesson_2_code.zip"
+      ],
+      "createdAt": "2025-03-12T10:54:07.022000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6c4",
+      "lessonId": "LESSON_003",
+      "courseId": "COURSE_008",
+      "title": "Algorithms - Introduction to Machine Learning",
+      "content": "This lesson explores algorithms with detailed explanations and practical examples.",
+      "duration": 42,
+      "order": 3,
+      "videoUrl": "https://videos.example.com/lesson_3.mp4",
+      "materials": [
+        "lesson_3_notes.pdf",
+        "lesson_3_code.zip"
+      ],
+      "createdAt": "2025-03-31T10:54:07.022000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6c5",
+      "lessonId": "LESSON_004",
+      "courseId": "COURSE_002",
+      "title": "Data Structures - Modern Web Development",
+      "content": "This lesson explores data structures with detailed explanations and practical examples.",
+      "duration": 54,
+      "order": 4,
+      "videoUrl": "https://videos.example.com/lesson_4.mp4",
+      "materials": [
+        "lesson_4_notes.pdf",
+        "lesson_4_code.zip"
+      ],
+      "createdAt": "2025-03-19T10:54:07.022000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6c6",
+      "lessonId": "LESSON_005",
+      "courseId": "COURSE_002",
+      "title": "Best Practices - Modern Web Development",
+      "content": "This lesson explores best practices with detailed explanations and practical examples.",
+      "duration": 46,
+      "order": 5,
+      "videoUrl": "https://videos.example.com/lesson_5.mp4",
+      "materials": [
+        "lesson_5_notes.pdf",
+        "lesson_5_code.zip"
+      ],
+      "createdAt": "2025-03-30T10:54:07.022000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6c7",
+      "lessonId": "LESSON_006",
+      "courseId": "COURSE_006",
+      "title": "Data Structures - React Application Development",
+      "content": "This lesson explores data structures with detailed explanations and practical examples.",
+      "duration": 39,
+      "order": 6,
+      "videoUrl": "https://videos.example.com/lesson_6.mp4",
+      "materials": [
+        "lesson_6_notes.pdf",
+        "lesson_6_code.zip"
+      ],
+      "createdAt": "2025-04-28T10:54:07.022000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6c8",
+      "lessonId": "LESSON_007",
+      "courseId": "COURSE_008",
+      "title": "Advanced Techniques - Introduction to Machine Learning",
+      "content": "This lesson explores advanced techniques with detailed explanations and practical examples.",
+      "duration": 31,
+      "order": 7,
+      "videoUrl": "https://videos.example.com/lesson_7.mp4",
+      "materials": [
+        "lesson_7_notes.pdf",
+        "lesson_7_code.zip"
+      ],
+      "createdAt": "2025-03-03T10:54:07.022000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6c9",
+      "lessonId": "LESSON_008",
+      "courseId": "COURSE_004",
+      "title": "Testing Strategies - JavaScript for Beginners",
+      "content": "This lesson explores testing strategies with detailed explanations and practical examples.",
+      "duration": 41,
+      "order": 8,
+      "videoUrl": "https://videos.example.com/lesson_8.mp4",
+      "materials": [
+        "lesson_8_notes.pdf",
+        "lesson_8_code.zip"
+      ],
+      "createdAt": "2025-04-06T10:54:07.022000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6ca",
+      "lessonId": "LESSON_009",
+      "courseId": "COURSE_007",
+      "title": "Final Project - Backend Development with Node",
+      "content": "This lesson explores final project with detailed explanations and practical examples.",
+      "duration": 28,
+      "order": 9,
+      "videoUrl": "https://videos.example.com/lesson_9.mp4",
+      "materials": [
+        "lesson_9_notes.pdf",
+        "lesson_9_code.zip"
+      ],
+      "createdAt": "2025-04-12T10:54:07.022000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6cb",
+      "lessonId": "LESSON_010",
+      "courseId": "COURSE_005",
+      "title": "Data Structures - Database Management Systems",
+      "content": "This lesson explores data structures with detailed explanations and practical examples.",
+      "duration": 43,
+      "order": 10,
+      "videoUrl": "https://videos.example.com/lesson_10.mp4",
+      "materials": [
+        "lesson_10_notes.pdf",
+        "lesson_10_code.zip"
+      ],
+      "createdAt": "2025-05-14T10:54:07.022000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6cc",
+      "lessonId": "LESSON_011",
+      "courseId": "COURSE_004",
+      "title": "Testing Strategies - JavaScript for Beginners",
+      "content": "This lesson explores testing strategies with detailed explanations and practical examples.",
+      "duration": 38,
+      "order": 1,
+      "videoUrl": "https://videos.example.com/lesson_11.mp4",
+      "materials": [
+        "lesson_11_notes.pdf",
+        "lesson_11_code.zip"
+      ],
+      "createdAt": "2025-02-24T10:54:07.022000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6cd",
+      "lessonId": "LESSON_012",
+      "courseId": "COURSE_007",
+      "title": "Advanced Techniques - Backend Development with Node",
+      "content": "This lesson explores advanced techniques with detailed explanations and practical examples.",
+      "duration": 34,
+      "order": 2,
+      "videoUrl": "https://videos.example.com/lesson_12.mp4",
+      "materials": [
+        "lesson_12_notes.pdf",
+        "lesson_12_code.zip"
+      ],
+      "createdAt": "2025-06-06T10:54:07.022000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6ce",
+      "lessonId": "LESSON_013",
+      "courseId": "COURSE_008",
+      "title": "Error Handling - Introduction to Machine Learning",
+      "content": "This lesson explores error handling with detailed explanations and practical examples.",
+      "duration": 40,
+      "order": 3,
+      "videoUrl": "https://videos.example.com/lesson_13.mp4",
+      "materials": [
+        "lesson_13_notes.pdf",
+        "lesson_13_code.zip"
+      ],
+      "createdAt": "2025-03-15T10:54:07.022000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6cf",
+      "lessonId": "LESSON_014",
+      "courseId": "COURSE_007",
+      "title": "Data Structures - Backend Development with Node",
+      "content": "This lesson explores data structures with detailed explanations and practical examples.",
+      "duration": 28,
+      "order": 4,
+      "videoUrl": "https://videos.example.com/lesson_14.mp4",
+      "materials": [
+        "lesson_14_notes.pdf",
+        "lesson_14_code.zip"
+      ],
+      "createdAt": "2025-04-04T10:54:07.022000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6d0",
+      "lessonId": "LESSON_015",
+      "courseId": "COURSE_006",
+      "title": "Core Concepts - React Application Development",
+      "content": "This lesson explores core concepts with detailed explanations and practical examples.",
+      "duration": 37,
+      "order": 5,
+      "videoUrl": "https://videos.example.com/lesson_15.mp4",
+      "materials": [
+        "lesson_15_notes.pdf",
+        "lesson_15_code.zip"
+      ],
+      "createdAt": "2025-06-04T10:54:07.022000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6d1",
+      "lessonId": "LESSON_016",
+      "courseId": "COURSE_003",
+      "title": "Performance Optimization - Data Science Fundamentals",
+      "content": "This lesson explores performance optimization with detailed explanations and practical examples.",
+      "duration": 55,
+      "order": 6,
+      "videoUrl": "https://videos.example.com/lesson_16.mp4",
+      "materials": [
+        "lesson_16_notes.pdf",
+        "lesson_16_code.zip"
+      ],
+      "createdAt": "2025-02-16T10:54:07.022000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6d2",
+      "lessonId": "LESSON_017",
+      "courseId": "COURSE_002",
+      "title": "Final Project - Modern Web Development",
+      "content": "This lesson explores final project with detailed explanations and practical examples.",
+      "duration": 40,
+      "order": 7,
+      "videoUrl": "https://videos.example.com/lesson_17.mp4",
+      "materials": [
+        "lesson_17_notes.pdf",
+        "lesson_17_code.zip"
+      ],
+      "createdAt": "2025-06-06T10:54:07.022000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6d3",
+      "lessonId": "LESSON_018",
+      "courseId": "COURSE_001",
+      "title": "Core Concepts - Complete Python Programming",
+      "content": "This lesson explores core concepts with detailed explanations and practical examples.",
+      "duration": 53,
+      "order": 8,
+      "videoUrl": "https://videos.example.com/lesson_18.mp4",
+      "materials": [
+        "lesson_18_notes.pdf",
+        "lesson_18_code.zip"
+      ],
+      "createdAt": "2025-02-26T10:54:07.022000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6d4",
+      "lessonId": "LESSON_019",
+      "courseId": "COURSE_005",
+      "title": "Core Concepts - Database Management Systems",
+      "content": "This lesson explores core concepts with detailed explanations and practical examples.",
+      "duration": 54,
+      "order": 9,
+      "videoUrl": "https://videos.example.com/lesson_19.mp4",
+      "materials": [
+        "lesson_19_notes.pdf",
+        "lesson_19_code.zip"
+      ],
+      "createdAt": "2025-05-01T10:54:07.022000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6d5",
+      "lessonId": "LESSON_020",
+      "courseId": "COURSE_005",
+      "title": "Advanced Techniques - Database Management Systems",
+      "content": "This lesson explores advanced techniques with detailed explanations and practical examples.",
+      "duration": 50,
+      "order": 10,
+      "videoUrl": "https://videos.example.com/lesson_20.mp4",
+      "materials": [
+        "lesson_20_notes.pdf",
+        "lesson_20_code.zip"
+      ],
+      "createdAt": "2025-04-27T10:54:07.022000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6d6",
+      "lessonId": "LESSON_021",
+      "courseId": "COURSE_005",
+      "title": "Algorithms - Database Management Systems",
+      "content": "This lesson explores algorithms with detailed explanations and practical examples.",
+      "duration": 55,
+      "order": 1,
+      "videoUrl": "https://videos.example.com/lesson_21.mp4",
+      "materials": [
+        "lesson_21_notes.pdf",
+        "lesson_21_code.zip"
+      ],
+      "createdAt": "2025-03-11T10:54:07.022000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6d7",
+      "lessonId": "LESSON_022",
+      "courseId": "COURSE_005",
+      "title": "Data Structures - Database Management Systems",
+      "content": "This lesson explores data structures with detailed explanations and practical examples.",
+      "duration": 35,
+      "order": 2,
+      "videoUrl": "https://videos.example.com/lesson_22.mp4",
+      "materials": [
+        "lesson_22_notes.pdf",
+        "lesson_22_code.zip"
+      ],
+      "createdAt": "2025-04-30T10:54:07.022000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6d8",
+      "lessonId": "LESSON_023",
+      "courseId": "COURSE_005",
+      "title": "Testing Strategies - Database Management Systems",
+      "content": "This lesson explores testing strategies with detailed explanations and practical examples.",
+      "duration": 52,
+      "order": 3,
+      "videoUrl": "https://videos.example.com/lesson_23.mp4",
+      "materials": [
+        "lesson_23_notes.pdf",
+        "lesson_23_code.zip"
+      ],
+      "createdAt": "2025-04-14T10:54:07.022000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6d9",
+      "lessonId": "LESSON_024",
+      "courseId": "COURSE_003",
+      "title": "Testing Strategies - Data Science Fundamentals",
+      "content": "This lesson explores testing strategies with detailed explanations and practical examples.",
+      "duration": 55,
+      "order": 4,
+      "videoUrl": "https://videos.example.com/lesson_24.mp4",
+      "materials": [
+        "lesson_24_notes.pdf",
+        "lesson_24_code.zip"
+      ],
+      "createdAt": "2025-05-29T10:54:07.022000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6da",
+      "lessonId": "LESSON_025",
+      "courseId": "COURSE_003",
+      "title": "Algorithms - Data Science Fundamentals",
+      "content": "This lesson explores algorithms with detailed explanations and practical examples.",
+      "duration": 35,
+      "order": 5,
+      "videoUrl": "https://videos.example.com/lesson_25.mp4",
+      "materials": [
+        "lesson_25_notes.pdf",
+        "lesson_25_code.zip"
+      ],
+      "createdAt": "2025-04-09T10:54:07.022000"
+    }
+  ],
+  "assignments": [
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6db",
+      "assignmentId": "ASSIGN_001",
+      "courseId": "COURSE_007",
+      "title": "Project: Backend Development with Node",
+      "description": "Complete this project to demonstrate mastery of course concepts.",
+      "dueDate": "2025-07-05T10:54:07.457000",
+      "maxPoints": 85,
+      "createdAt": "2025-04-20T10:54:07.457000",
+      "instructions": "Follow the guidelines to complete this project. Submit all required components."
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6dc",
+      "assignmentId": "ASSIGN_002",
+      "courseId": "COURSE_005",
+      "title": "Quiz: Database Management Systems",
+      "description": "Complete this quiz to demonstrate mastery of course concepts.",
+      "dueDate": "2025-07-27T10:54:07.457000",
+      "maxPoints": 100,
+      "createdAt": "2025-05-14T10:54:07.457000",
+      "instructions": "Follow the guidelines to complete this quiz. Submit all required components."
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6dd",
+      "assignmentId": "ASSIGN_003",
+      "courseId": "COURSE_005",
+      "title": "Lab Work: Database Management Systems",
+      "description": "Complete this lab work to demonstrate mastery of course concepts.",
+      "dueDate": "2025-07-13T10:54:07.457000",
+      "maxPoints": 85,
+      "createdAt": "2025-05-14T10:54:07.457000",
+      "instructions": "Follow the guidelines to complete this lab work. Submit all required components."
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6de",
+      "assignmentId": "ASSIGN_004",
+      "courseId": "COURSE_003",
+      "title": "Exercise: Data Science Fundamentals",
+      "description": "Complete this exercise to demonstrate mastery of course concepts.",
+      "dueDate": "2025-07-27T10:54:07.457000",
+      "maxPoints": 85,
+      "createdAt": "2025-05-14T10:54:07.457000",
+      "instructions": "Follow the guidelines to complete this exercise. Submit all required components."
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6df",
+      "assignmentId": "ASSIGN_005",
+      "courseId": "COURSE_008",
+      "title": "Exercise: Introduction to Machine Learning",
+      "description": "Complete this exercise to demonstrate mastery of course concepts.",
+      "dueDate": "2025-07-26T10:54:07.457000",
+      "maxPoints": 100,
+      "createdAt": "2025-05-18T10:54:07.457000",
+      "instructions": "Follow the guidelines to complete this exercise. Submit all required components."
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6e0",
+      "assignmentId": "ASSIGN_006",
+      "courseId": "COURSE_008",
+      "title": "Exercise: Introduction to Machine Learning",
+      "description": "Complete this exercise to demonstrate mastery of course concepts.",
+      "dueDate": "2025-07-09T10:54:07.457000",
+      "maxPoints": 100,
+      "createdAt": "2025-05-09T10:54:07.457000",
+      "instructions": "Follow the guidelines to complete this exercise. Submit all required components."
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6e1",
+      "assignmentId": "ASSIGN_007",
+      "courseId": "COURSE_005",
+      "title": "Lab Work: Database Management Systems",
+      "description": "Complete this lab work to demonstrate mastery of course concepts.",
+      "dueDate": "2025-07-04T10:54:07.457000",
+      "maxPoints": 100,
+      "createdAt": "2025-03-26T10:54:07.457000",
+      "instructions": "Follow the guidelines to complete this lab work. Submit all required components."
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6e2",
+      "assignmentId": "ASSIGN_008",
+      "courseId": "COURSE_002",
+      "title": "Exercise: Modern Web Development",
+      "description": "Complete this exercise to demonstrate mastery of course concepts.",
+      "dueDate": "2025-07-17T10:54:07.457000",
+      "maxPoints": 70,
+      "createdAt": "2025-04-07T10:54:07.457000",
+      "instructions": "Follow the guidelines to complete this exercise. Submit all required components."
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6e3",
+      "assignmentId": "ASSIGN_009",
+      "courseId": "COURSE_003",
+      "title": "Lab Work: Data Science Fundamentals",
+      "description": "Complete this lab work to demonstrate mastery of course concepts.",
+      "dueDate": "2025-07-28T10:54:07.457000",
+      "maxPoints": 70,
+      "createdAt": "2025-05-26T10:54:07.457000",
+      "instructions": "Follow the guidelines to complete this lab work. Submit all required components."
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6e4",
+      "assignmentId": "ASSIGN_010",
+      "courseId": "COURSE_004",
+      "title": "Lab Work: JavaScript for Beginners",
+      "description": "Complete this lab work to demonstrate mastery of course concepts.",
+      "dueDate": "2025-07-10T10:54:07.457000",
+      "maxPoints": 85,
+      "createdAt": "2025-05-18T10:54:07.457000",
+      "instructions": "Follow the guidelines to complete this lab work. Submit all required components."
+    }
+  ],
+  "enrollments": [
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6e6",
+      "enrollmentId": "ENROLL_002",
+      "studentId": "STU_014",
+      "courseId": "COURSE_004",
+      "enrollmentDate": "2025-05-07T10:54:07.975000",
+      "status": "completed",
+      "progress": 92,
+      "completionDate": null
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6e7",
+      "enrollmentId": "ENROLL_003",
+      "studentId": "STU_005",
+      "courseId": "COURSE_004",
+      "enrollmentDate": "2025-04-22T10:54:07.975000",
+      "status": "completed",
+      "progress": 72,
+      "completionDate": "2025-06-03T10:54:07.975000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6e8",
+      "enrollmentId": "ENROLL_004",
+      "studentId": "STU_011",
+      "courseId": "COURSE_004",
+      "enrollmentDate": "2025-05-23T10:54:07.975000",
+      "status": "completed",
+      "progress": 24,
+      "completionDate": "2025-05-18T10:54:07.975000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6e9",
+      "enrollmentId": "ENROLL_005",
+      "studentId": "STU_011",
+      "courseId": "COURSE_003",
+      "enrollmentDate": "2025-03-26T10:54:07.975000",
+      "status": "active",
+      "progress": 61,
+      "completionDate": null
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6ea",
+      "enrollmentId": "ENROLL_006",
+      "studentId": "STU_013",
+      "courseId": "COURSE_004",
+      "enrollmentDate": "2025-05-12T10:54:07.975000",
+      "status": "completed",
+      "progress": 26,
+      "completionDate": "2025-06-09T10:54:07.975000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6eb",
+      "enrollmentId": "ENROLL_007",
+      "studentId": "STU_012",
+      "courseId": "COURSE_002",
+      "enrollmentDate": "2025-04-24T10:54:07.975000",
+      "status": "active",
+      "progress": 89,
+      "completionDate": null
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6ec",
+      "enrollmentId": "ENROLL_008",
+      "studentId": "STU_009",
+      "courseId": "COURSE_007",
+      "enrollmentDate": "2025-05-10T10:54:07.975000",
+      "status": "dropped",
+      "progress": 52,
+      "completionDate": null
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6ed",
+      "enrollmentId": "ENROLL_009",
+      "studentId": "STU_002",
+      "courseId": "COURSE_008",
+      "enrollmentDate": "2025-03-30T10:54:07.975000",
+      "status": "dropped",
+      "progress": 15,
+      "completionDate": null
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6ee",
+      "enrollmentId": "ENROLL_010",
+      "studentId": "STU_002",
+      "courseId": "COURSE_006",
+      "enrollmentDate": "2025-05-18T10:54:07.975000",
+      "status": "active",
+      "progress": 64,
+      "completionDate": null
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6ef",
+      "enrollmentId": "ENROLL_011",
+      "studentId": "STU_013",
+      "courseId": "COURSE_002",
+      "enrollmentDate": "2025-04-05T10:54:07.975000",
+      "status": "dropped",
+      "progress": 57,
+      "completionDate": "2025-05-09T10:54:07.975000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6f0",
+      "enrollmentId": "ENROLL_012",
+      "studentId": "STU_013",
+      "courseId": "COURSE_007",
+      "enrollmentDate": "2025-05-20T10:54:07.975000",
+      "status": "completed",
+      "progress": 60,
+      "completionDate": null
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6f1",
+      "enrollmentId": "ENROLL_013",
+      "studentId": "STU_007",
+      "courseId": "COURSE_002",
+      "enrollmentDate": "2025-03-16T10:54:07.975000",
+      "status": "active",
+      "progress": 77,
+      "completionDate": "2025-05-25T10:54:07.975000"
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6f2",
+      "enrollmentId": "ENROLL_014",
+      "studentId": "STU_013",
+      "courseId": "COURSE_001",
+      "enrollmentDate": "2025-05-10T10:54:07.975000",
+      "status": "active",
+      "progress": 44,
+      "completionDate": null
+    },
+    {
+      "_id": "684d46bfeb0d92f7a2fbe6f3",
+      "enrollmentId": "ENROLL_015",
+      "studentId": "STU_010",
+      "courseId": "COURSE_005",
+      "enrollmentDate": "2025-04-26T10:54:07.975000",
+      "status": "active",
+      "progress": 46,
+      "completionDate": "2025-05-07T10:54:07.975000"
+    }
+  ],
+  "submissions": [
+    {
+      "_id": "684d46c0eb0d92f7a2fbe6f4",
+      "submissionId": "SUB_001",
+      "assignmentId": "ASSIGN_001",
+      "studentId": "STU_009",
+      "submissionDate": "2025-05-18T10:54:08.536000",
+      "content": "Submission for Project: Backend Development with Node. All requirements have been met.",
+      "attachments": [
+        "submission_1.pdf",
+        "source_code_1.py"
+      ],
+      "grade": null,
+      "feedback": null,
+      "gradedDate": "2025-06-01T10:54:08.536000"
+    },
+    {
+      "_id": "684d46c0eb0d92f7a2fbe6f5",
+      "submissionId": "SUB_002",
+      "assignmentId": "ASSIGN_003",
+      "studentId": "STU_010",
+      "submissionDate": "2025-05-25T10:54:08.536000",
+      "content": "Submission for Lab Work: Database Management Systems. All requirements have been met.",
+      "attachments": [
+        "submission_2.pdf",
+        "source_code_2.py"
+      ],
+      "grade": null,
+      "feedback": null,
+      "gradedDate": null
+    },
+    {
+      "_id": "684d46c0eb0d92f7a2fbe6f6",
+      "submissionId": "SUB_003",
+      "assignmentId": "ASSIGN_001",
+      "studentId": "STU_009",
+      "submissionDate": "2025-06-05T10:54:08.536000",
+      "content": "Submission for Project: Backend Development with Node. All requirements have been met.",
+      "attachments": [
+        "submission_3.pdf",
+        "source_code_3.py"
+      ],
+      "grade": null,
+      "feedback": "Well done! Good understanding demonstrated.",
+      "gradedDate": null
+    },
+    {
+      "_id": "684d46c0eb0d92f7a2fbe6f7",
+      "submissionId": "SUB_004",
+      "assignmentId": "ASSIGN_009",
+      "studentId": "STU_011",
+      "submissionDate": "2025-05-22T10:54:08.536000",
+      "content": "Submission for Lab Work: Data Science Fundamentals. All requirements have been met.",
+      "attachments": [
+        "submission_4.pdf",
+        "source_code_4.py"
+      ],
+      "grade": 66,
+      "feedback": null,
+      "gradedDate": null
+    },
+    {
+      "_id": "684d46c0eb0d92f7a2fbe6f8",
+      "submissionId": "SUB_005",
+      "assignmentId": "ASSIGN_009",
+      "studentId": "STU_011",
+      "submissionDate": "2025-05-21T10:54:08.536000",
+      "content": "Submission for Lab Work: Data Science Fundamentals. All requirements have been met.",
+      "attachments": [
+        "submission_5.pdf",
+        "source_code_5.py"
+      ],
+      "grade": 90,
+      "feedback": "Well done! Good understanding demonstrated.",
+      "gradedDate": null
+    },
+    {
+      "_id": "684d46c0eb0d92f7a2fbe6f9",
+      "submissionId": "SUB_006",
+      "assignmentId": "ASSIGN_010",
+      "studentId": "STU_014",
+      "submissionDate": "2025-06-10T10:54:08.536000",
+      "content": "Submission for Lab Work: JavaScript for Beginners. All requirements have been met.",
+      "attachments": [
+        "submission_6.pdf",
+        "source_code_6.py"
+      ],
+      "grade": 61,
+      "feedback": null,
+      "gradedDate": null
+    },
+    {
+      "_id": "684d46c0eb0d92f7a2fbe6fa",
+      "submissionId": "SUB_007",
+      "assignmentId": "ASSIGN_009",
+      "studentId": "STU_011",
+      "submissionDate": "2025-05-22T10:54:08.536000",
+      "content": "Submission for Lab Work: Data Science Fundamentals. All requirements have been met.",
+      "attachments": [
+        "submission_7.pdf",
+        "source_code_7.py"
+      ],
+      "grade": 93,
+      "feedback": null,
+      "gradedDate": null
+    },
+    {
+      "_id": "684d46c0eb0d92f7a2fbe6fb",
+      "submissionId": "SUB_008",
+      "assignmentId": "ASSIGN_005",
+      "studentId": "STU_002",
+      "submissionDate": "2025-05-20T10:54:08.536000",
+      "content": "Submission for Exercise: Introduction to Machine Learning. All requirements have been met.",
+      "attachments": [
+        "submission_8.pdf",
+        "source_code_8.py"
+      ],
+      "grade": 99,
+      "feedback": "Well done! Good understanding demonstrated.",
+      "gradedDate": "2025-06-05T10:54:08.536000"
+    },
+    {
+      "_id": "684d46c0eb0d92f7a2fbe6fc",
+      "submissionId": "SUB_009",
+      "assignmentId": "ASSIGN_009",
+      "studentId": "STU_011",
+      "submissionDate": "2025-05-22T10:54:08.536000",
+      "content": "Submission for Lab Work: Data Science Fundamentals. All requirements have been met.",
+      "attachments": [
+        "submission_9.pdf",
+        "source_code_9.py"
+      ],
+      "grade": null,
+      "feedback": null,
+      "gradedDate": null
+    },
+    {
+      "_id": "684d46c0eb0d92f7a2fbe6fd",
+      "submissionId": "SUB_010",
+      "assignmentId": "ASSIGN_009",
+      "studentId": "STU_011",
+      "submissionDate": "2025-05-19T10:54:08.536000",
+      "content": "Submission for Lab Work: Data Science Fundamentals. All requirements have been met.",
+      "attachments": [
+        "submission_10.pdf",
+        "source_code_10.py"
+      ],
+      "grade": null,
+      "feedback": null,
+      "gradedDate": null
+    },
+    {
+      "_id": "684d46c0eb0d92f7a2fbe6fe",
+      "submissionId": "SUB_011",
+      "assignmentId": "ASSIGN_001",
+      "studentId": "STU_013",
+      "submissionDate": "2025-05-15T10:54:08.536000",
+      "content": "Submission for Project: Backend Development with Node. All requirements have been met.",
+      "attachments": [
+        "submission_11.pdf",
+        "source_code_11.py"
+      ],
+      "grade": null,
+      "feedback": null,
+      "gradedDate": "2025-06-05T10:54:08.536000"
+    },
+    {
+      "_id": "684d46c0eb0d92f7a2fbe6ff",
+      "submissionId": "SUB_012",
+      "assignmentId": "ASSIGN_003",
+      "studentId": "STU_010",
+      "submissionDate": "2025-06-11T10:54:08.536000",
+      "content": "Submission for Lab Work: Database Management Systems. All requirements have been met.",
+      "attachments": [
+        "submission_12.pdf",
+        "source_code_12.py"
+      ],
+      "grade": 91,
+      "feedback": null,
+      "gradedDate": "2025-05-30T10:54:08.536000"
+    }
+  ]
+}
