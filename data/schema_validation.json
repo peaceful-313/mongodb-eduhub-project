@@ -1,0 +1,293 @@
+{
+  "users": {
+    "$jsonSchema": {
+      "bsonType": "object",
+      "required": ["userId", "email", "firstName", "lastName", "role"],
+      "properties": {
+        "userId": {
+          "bsonType": "string",
+          "description": "Unique identifier for the user"
+        },
+        "email": {
+          "bsonType": "string",
+          "pattern": "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$",
+          "description": "Valid email address"
+        },
+        "firstName": {
+          "bsonType": "string",
+          "description": "User's first name"
+        },
+        "lastName": {
+          "bsonType": "string",
+          "description": "User's last name"
+        },
+        "role": {
+          "bsonType": "string",
+          "enum": ["student", "instructor"],
+          "description": "User role in the system"
+        },
+        "dateJoined": {
+          "bsonType": "date",
+          "description": "Date when user joined the platform"
+        },
+        "profile": {
+          "bsonType": "object",
+          "properties": {
+            "bio": {
+              "bsonType": "string",
+              "description": "User biography"
+            },
+            "avatar": {
+              "bsonType": "string",
+              "description": "Avatar image URL"
+            },
+            "skills": {
+              "bsonType": "array",
+              "items": {
+                "bsonType": "string"
+              },
+              "description": "List of user skills"
+            }
+          }
+        },
+        "isActive": {
+          "bsonType": "bool",
+          "description": "Whether the user account is active"
+        }
+      }
+    }
+  },
+  "courses": {
+    "$jsonSchema": {
+      "bsonType": "object",
+      "required": ["courseId", "title", "instructorId"],
+      "properties": {
+        "courseId": {
+          "bsonType": "string",
+          "description": "Unique identifier for the course"
+        },
+        "title": {
+          "bsonType": "string",
+          "description": "Course title"
+        },
+        "description": {
+          "bsonType": "string",
+          "description": "Course description"
+        },
+        "instructorId": {
+          "bsonType": "string",
+          "description": "Reference to instructor user"
+        },
+        "category": {
+          "bsonType": "string",
+          "description": "Course category"
+        },
+        "level": {
+          "bsonType": "string",
+          "enum": ["beginner", "intermediate", "advanced"],
+          "description": "Course difficulty level"
+        },
+        "duration": {
+          "bsonType": "number",
+          "description": "Course duration in hours"
+        },
+        "price": {
+          "bsonType": "number",
+          "description": "Course price"
+        },
+        "tags": {
+          "bsonType": "array",
+          "items": {
+            "bsonType": "string"
+          },
+          "description": "Course tags for search"
+        },
+        "createdAt": {
+          "bsonType": "date",
+          "description": "Course creation date"
+        },
+        "updatedAt": {
+          "bsonType": "date",
+          "description": "Last update date"
+        },
+        "isPublished": {
+          "bsonType": "bool",
+          "description": "Whether the course is published"
+        }
+      }
+    }
+  },
+  "enrollments": {
+    "$jsonSchema": {
+      "bsonType": "object",
+      "required": ["enrollmentId", "studentId", "courseId", "enrollmentDate"],
+      "properties": {
+        "enrollmentId": {
+          "bsonType": "string",
+          "description": "Unique identifier for the enrollment"
+        },
+        "studentId": {
+          "bsonType": "string",
+          "description": "Reference to student user"
+        },
+        "courseId": {
+          "bsonType": "string",
+          "description": "Reference to course"
+        },
+        "enrollmentDate": {
+          "bsonType": "date",
+          "description": "Date of enrollment"
+        },
+        "status": {
+          "bsonType": "string",
+          "enum": ["active", "completed", "dropped"],
+          "description": "Enrollment status"
+        },
+        "progress": {
+          "bsonType": "number",
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Course completion progress"
+        },
+        "completionDate": {
+          "bsonType": ["date", "null"],
+          "description": "Date of course completion"
+        }
+      }
+    }
+  },
+  "lessons": {
+    "$jsonSchema": {
+      "bsonType": "object",
+      "required": ["lessonId", "courseId", "title", "content"],
+      "properties": {
+        "lessonId": {
+          "bsonType": "string",
+          "description": "Unique identifier for the lesson"
+        },
+        "courseId": {
+          "bsonType": "string",
+          "description": "Reference to course"
+        },
+        "title": {
+          "bsonType": "string",
+          "description": "Lesson title"
+        },
+        "content": {
+          "bsonType": "string",
+          "description": "Lesson content"
+        },
+        "duration": {
+          "bsonType": "number",
+          "description": "Lesson duration in minutes"
+        },
+        "order": {
+          "bsonType": "number",
+          "description": "Lesson order in course"
+        },
+        "videoUrl": {
+          "bsonType": "string",
+          "description": "Video URL for lesson"
+        },
+        "materials": {
+          "bsonType": "array",
+          "items": {
+            "bsonType": "string"
+          },
+          "description": "List of lesson materials"
+        },
+        "createdAt": {
+          "bsonType": "date",
+          "description": "Lesson creation date"
+        }
+      }
+    }
+  },
+  "assignments": {
+    "$jsonSchema": {
+      "bsonType": "object",
+      "required": ["assignmentId", "courseId", "title", "description"],
+      "properties": {
+        "assignmentId": {
+          "bsonType": "string",
+          "description": "Unique identifier for the assignment"
+        },
+        "courseId": {
+          "bsonType": "string",
+          "description": "Reference to course"
+        },
+        "title": {
+          "bsonType": "string",
+          "description": "Assignment title"
+        },
+        "description": {
+          "bsonType": "string",
+          "description": "Assignment description"
+        },
+        "dueDate": {
+          "bsonType": "date",
+          "description": "Assignment due date"
+        },
+        "maxPoints": {
+          "bsonType": "number",
+          "description": "Maximum points for assignment"
+        },
+        "createdAt": {
+          "bsonType": "date",
+          "description": "Assignment creation date"
+        },
+        "instructions": {
+          "bsonType": "string",
+          "description": "Assignment instructions"
+        }
+      }
+    }
+  },
+  "submissions": {
+    "$jsonSchema": {
+      "bsonType": "object",
+      "required": ["submissionId", "assignmentId", "studentId"],
+      "properties": {
+        "submissionId": {
+          "bsonType": "string",
+          "description": "Unique identifier for the submission"
+        },
+        "assignmentId": {
+          "bsonType": "string",
+          "description": "Reference to assignment"
+        },
+        "studentId": {
+          "bsonType": "string",
+          "description": "Reference to student"
+        },
+        "submissionDate": {
+          "bsonType": "date",
+          "description": "Date of submission"
+        },
+        "content": {
+          "bsonType": "string",
+          "description": "Submission content"
+        },
+        "attachments": {
+          "bsonType": "array",
+          "items": {
+            "bsonType": "string"
+          },
+          "description": "List of attached files"
+        },
+        "grade": {
+          "bsonType": ["number", "null"],
+          "description": "Grade received"
+        },
+        "feedback": {
+          "bsonType": ["string", "null"],
+          "description": "Instructor feedback"
+        },
+        "gradedDate": {
+          "bsonType": ["date", "null"],
+          "description": "Date when graded"
+        }
+      }
+    }
+  }
+}
