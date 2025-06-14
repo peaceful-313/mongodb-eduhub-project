@@ -60,6 +60,7 @@ class LearningPlatformDB:
                 }
             }
         }
+
         
         # Course schema validation
         course_validation_rules = {
