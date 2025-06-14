@@ -404,7 +404,7 @@ info = db.get_database_info()
 
 ## Author
 
-**Student Name**
+**Peace Emmanuel**
 - AltSchool of Data Engineering Tinyuka 2024
 - Email: peacewill862@gmail.com
 
