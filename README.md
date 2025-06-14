@@ -419,8 +419,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **Student Name**
 - AltSchool of Data Engineering Tinyuka 2024
-- Email: student@example.com
-- GitHub: [GitHub Profile]
+- Email: peacewill862@gmail.com
 
 ## Project Status
 
